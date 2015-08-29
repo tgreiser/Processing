@@ -217,6 +217,15 @@ public class SyphonClient {
   }
 
   /**
+   * Returns true if JSyphon has been loaded (is valid pointer)
+   *
+   * @return boolean
+   */
+  public boolean isValid() {
+    return client.isValid();
+  }
+
+  /**
    * Returns true if a new frame is available.
    * 
    * @return boolean 
